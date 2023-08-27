@@ -25,19 +25,29 @@ class ContactInfo
 
     #updateTypeOfContact(newValue)
     {
-        //string validation
+
+        if(newValue != 'string')
+        {
+            throw new Error("Invalid Value")
+        }
         this.typeOfContact = newValue
     }
 
     #updateValueOfContact(newValue)
     {
-        //string validation
+        if(newValue != 'string')
+        {
+            throw new Error("Invalid Value")
+        }
         this.valueOfContact = newValue
     }
 
     updateContactInfo(parameter, newValue)
     {
-        //parameter is string
+        if(paramter != 'string')
+        {
+            throw new Error("Invalid Parameter")
+        }
         switch (parameter) {
             case "typeOfContact":
                 this.#updateTypeOfContact(newValue)

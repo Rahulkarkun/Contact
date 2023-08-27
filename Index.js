@@ -20,4 +20,5 @@ user1.createContactInfo("mobile","9301782099",0)
 user1.createContactInfo("work","9337829208",0)
 user1.updateContactInfoByContactID(0,"typeOfContact","Email",0)
 user1.updateContactInfoByContactID(0,"valueOfContact","rahulkarkun9015@gmail.com",0)
-console.log(user1.getAllContactInfoOfContactID(0));
+
+console.log(user1.getAllContactInfoOfContactID(1));

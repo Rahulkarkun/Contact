@@ -268,17 +268,6 @@ class User {
         }
     }
 
-    // findContactInfo(contactInfoID)
-    // {
-    //     for (let index = 0; index < this.contactInfos.length; index++) {
-    //         if(contactInfoID == this.contactInfos[index].id)
-    //         {
-    //             return [this.contactInfos[index], index]
-    //         }
-    //         return [null,-1]
-    //     }
-    // }
-
     deleteContactInfoByContactID(contactID,contactInfoID)
     {
         try 
